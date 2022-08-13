@@ -66,6 +66,11 @@ h3 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+    margin-right: 24px;
+}
+
+.right-header {
+    display: flex;
 }
 
 .header-link {
