@@ -3,7 +3,6 @@ body {
 }
 
 body {
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -15,6 +14,19 @@ p {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    color: #F9FAF8
+}
+
+h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .main-container {
@@ -32,6 +44,8 @@ a {
     background-color: #E5E7EB;
 }
 
+/* Header */
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -48,13 +62,6 @@ a {
 
 .header-link {
     margin-right: 24px;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-    margin: 0;
-    color: #F9FAF8
 }
 
 .head-content {
@@ -98,10 +105,44 @@ h1 {
     background-color: grey;
 }
 
-.head-container,
+/* Info */
+
+.info-header-container {
+    margin-top: 42px;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card-box {
+    height: 150px;
+    width: 150px;
+    border: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 12px;
+
+    margin-bottom: 8px;
+}
+
+/* Quote */
+
+
 .foot-container,
 .quote-container,
-.info-container,
 .sign-container {
     flex: 1;
 }
