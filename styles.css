@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-container div {
+    flex: 1;
+    margin-bottom: 16px;
+}
+
+.head-container,
+.foot-container {
+    background-color: #1F2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
