@@ -231,3 +231,15 @@ h3 {
 .sign-button:hover {
     cursor: pointer;
 }
+
+/* Footer */
+.foot-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
