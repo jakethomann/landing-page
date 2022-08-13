@@ -100,10 +100,10 @@ h3 {
 .head-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     margin-top: 16px;
-    height: 32px;
+    height: 34px;
     min-width: 120px;
     border: none;
     border-radius: 8px;
@@ -240,12 +240,12 @@ h3 {
 .sign-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
-    height: 32px;
+    height: 34px;
     min-width: 120px;
     border: solid;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .sign-button:hover {
