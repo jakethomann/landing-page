@@ -190,24 +190,24 @@ h3 {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    height: 120px;
     width: 900px;
     background-color: #3882F6;
     border-radius: 8px;
     margin: 100px;
 }
 
-.sign-box-text {
-    display: flex;
-    flex-direction: column;
-    margin-right: 140px;
-}
-
 .sign-box-contents {
     display: flex;
     align-items: center;
-    margin: 16px;
+    padding: 32px;
 }
+
+.sign-box-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
 
 .sign-box-header {
     display: flex;
