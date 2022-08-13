@@ -141,7 +141,7 @@ h3 {
 }
 
 .card {
-    width: 150px;
+    width: 158px;
     text-align: center;
 }
 
@@ -154,6 +154,11 @@ h3 {
     border-radius: 12px;
 
     margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #575757;
 }
 
 /* Quote */
