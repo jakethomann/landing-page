@@ -174,3 +174,60 @@ h3 {
 .sign-container {
     flex: 1;
 }
+
+/* Sign */
+.sign-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-box {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 120px;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 100px;
+}
+
+.sign-box-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.sign-box-contents {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+.sign-box-header {
+    display: flex;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-box-subhead {
+    display: flex;
+    color: white;
+}
+
+.sign-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 16px;
+    height: 32px;
+    min-width: 120px;
+    border: solid;
+    border-radius: 8px;
+}
+
+.sign-button:hover {
+    cursor: pointer;
+}
